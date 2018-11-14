@@ -1,3 +1,6 @@
+/* 국민대학교 컴퓨터공학부 20163170 최은주
+   Binary Search Tree의 삽입, 삭제 알고리즘 */
+
 #include <iostream>
 #include <stdlib.h>
 #include <cmath>
@@ -173,7 +176,7 @@ int main(){
   insertBST(T, 3);    inorder(T);     cout << endl;
   insertBST(T, 19);   inorder(T);     cout << endl;
   insertBST(T, 20);   inorder(T);     cout << endl;
-  //삭제1
+  //삭제1 (삽입순서와 동일)
   deleteBST(T, 8);    inorder(T);     cout << endl;
   deleteBST(T, 18);   inorder(T);     cout << endl;
   deleteBST(T, 11);   inorder(T);     cout << endl;
@@ -207,7 +210,7 @@ int main(){
   insertBST(T, 3);    inorder(T);     cout << endl;
   insertBST(T, 19);   inorder(T);     cout << endl;
   insertBST(T, 20);   inorder(T);     cout << endl;
-  //삭제2
+  //삭제2 (삽입순서의 역순)
   deleteBST(T, 20);   inorder(T);     cout << endl;
   deleteBST(T, 19);   inorder(T);     cout << endl;
   deleteBST(T, 3);    inorder(T);     cout << endl;
